@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Biodata</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#profile">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Proyek</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="home" id="home">
+        <div class="overlay"></div>
+        <div class="hero">
+            <h1>HAI PENGUNJUNG</h1>
+            <h2>Nama saya fariz, saya adalah seorang backend web development dan bot developer<br>support saya terus ya<br></h2>
+            <a href="#profile" class="btn">Lihat Selengkapnya</a>
+        </div>
+    </div>
+
+    <div class="profile-details" id="profile">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="profile">
+                        <img src="stylesheet/gambar/faris.jpg" class="img-fluid rounded-circle" alt="Profile Picture">
+                        <h1 class="mt-3">Mohamad Fariz rachman Pratama</h1>
+                        <p>Web Developer <br>Bot Developer</p>
+
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="details">
+                        <h2>Informasi Pribadi</h2>
+                        <p>Tanggal Lahir: 1 maret 2006</p>
+                        <p>Alamat: Cirebon, kec.talun kel. kepongpongan gg.dahlia</p>
+                        <p>Email: farisrachman213@gmail.com</p>
+                        <p>Telepon: 08577208971</p>
+                        <h2>Pendidikan</h2>
+                        <ul>
+                            <li>SD : SDIT Al-falah</li>
+                        </ul>
+                        <ul>
+                            <li>SMP : SMPN 1 Kota Cirebon</li>
+                        </ul>
+                        <ul>
+                            <li>SMK : SMKN 1 Kota Cirebon </li>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>Universitas : UINSSC</li>
+                        </ul>
+
+                        <h2>Pengalaman Kerja</h2>
+                        <ul>
+                            <li>Software Engineer di DKIS Kota Cirebon</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="projects" id="projects">
+        <div class="container mt-5">
+            <h2 class="text-center">Proyek Saya</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="stylesheet/gambar/project1.jpg" class="card-img-top" alt="Proyek 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Aplikasi Ticketing Layanan</h5>
+                            <p class="card-text">aplikasi ini dibuat untuk memudahkan masyarakat cirebon membuat laporan pengaduan, dimulai dari layanan pemerintah, layanan internet,dan lain lain, aplikasi ini menggunakan php framework laravel dan MySQL</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project1Modal">
+                                Lihat Proyek
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="stylesheet/gambar/project2.jpg" class="card-img-top" alt="Proyek 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Info Camaba</h5>
+                            <p class="card-text">aplikasi ini saya gunakan untuk memberi info kepada calon mahasiswa baru UINSSC pada bulan juli hingga agustus lalu, aplikasi ini menggunakan bahasa php native dan MySQL</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project2Modal">
+                                Lihat Proyek
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="stylesheet/gambar/project3.jpg" class="card-img-top" alt="Proyek 3">
+                        <div class="card-body">
+                            <h5 class="card-title">aplikasi online food</h5>
+                            <p class="card-text">aplikasi ini masih saya kembangkan namun pada dasarnya aplikasi ini ingin saya gunakan untuk mempermudah pelanggan jika ingin memesan tapi malas keluar rumah, aplikasi ini berbasis php framework laravel 10 dan MySQL</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project3Modal">
+                                Lihat Proyek
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project1ModalLabel">Proyek 1</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="stylesheet/gambar/project1.jpg" class="img-fluid" alt="Proyek 1">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="project2Modal" tabindex="-1" aria-labelledby="project2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project2ModalLabel">Proyek 2</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="stylesheet/gambar/project2.jpg" class="img-fluid" alt="Proyek 2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="project3Modal" tabindex="-1" aria-labelledby="project3ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project3ModalLabel">Proyek 3</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="stylesheet/gambar/project3.jpg" class="img-fluid" alt="Proyek 3">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <h2>Kontak Saya</h2>
+        <p>Email: farisrachman213@gmail.com</p>
+        <p>Telepon: 085797208971 / 085722050975</p>
+        <p>&copy; 2024 Mohamad Fariz Rachman Pratama</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 70,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('.home, .profile-details, .projects, .footer');
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            let currentSection = '';
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+
+                if (pageYOffset >= sectionTop - 70 && pageYOffset < sectionTop + sectionHeight) {
+                    currentSection = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${currentSection}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
